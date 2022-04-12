@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(10, 9, 9);
+    width: 230px;
+    font-family: 'Abril Fatface', cursive;
+    height: 100vh;
+    font-weight: bold;
+    transition: transform 0.5s ease-in;
+}
+
+.sidebar nav {
+    padding: 28px;
+    padding-top: 70px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 23px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(233, 229, 229);
+    font-size: 21px;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 85vw;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /*background-color: brown;*/
+    height: 68vh;
+    width: 80vw;
+    margin: 25px 145px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contactcontainer {
+    margin-left: 145px;
+}
+
+.educontainer {
+    margin-left: 145px;
+}
+
+.ke {
+    margin-left: 140px;
+}
+
+.mypic {
+    border: 3px solid black;
+}
+
+.certcontainer {
+    margin-left: 145px;
+}
+
+.skcontainer {
+    margin-left: 180px;
+}
+
+.mypic img {
+    height: 65vh;
+    padding-top: 4px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+
+}
+
+.hello {
+    font-size: 36px;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 32px;
+    padding-top: 140px;
+}
+
+.name {
+    font-size: 53px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.about {
+    font-size: 33px;
+    font-family: 'Grape Nuts', cursive;
+    padding-bottom: 32px;
+}
+
+.aboutdescription {
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+}
+
+.buttons {
+    margin-top: 32px;
+    margin-left: 350px;
+}
+
+.quote {
+    padding-top: 70px;
+    padding-left: 50px;
+    display: flexbox;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    transform: translateX(188px);
+    text-decoration: underline
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(109, 109, 151);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(145, 77, 77);
+}
+
+.phoneimg {
+    height: 80px;
+    border: 3px solid black;
+}
+
+.phonenum {
+
+    display: flexbox;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 35px;
+    transform: translateY(-27px);
+}
+
+.maincontact {
+    padding-top: 45px;
+    padding-left: 140px;
+}
+
+.linkdinid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 35px;
+    transform: translateY(-27px);
+}
+
+.linkdinid a {
+    text-decoration: none;
+    color: black;
+}
+
+.linkdinimg {
+    height: 84px;
+    border: 3px solid black;
+}
+
+.emailimg {
+    height: 80px;
+    border: 3px solid black;
+}
+
+.emailid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 35px;
+    transform: translateY(-27px);
+}
+
+.wappid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 35px;
+    transform: translateY(-27px);
+}
+
+.wappimg {
+    width: 80px;
+    border: 3px solid black;
+}
+
+.wappid a {
+    text-decoration: none;
+    color: black;
+}
+
+.gitid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 35px;
+    transform: translateY(-27px);
+}
+
+.gitimg {
+    width: 80px;
+    border: 3px solid black;
+}
+
+.gitid a {
+    text-decoration: none;
+    color: black;
+}
+
+.edutitle {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px 270px;
+    font-size: 56px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.apsimg {
+    width: 170px;
+}
+
+.msitimg {
+    width: 170px;
+}
+
+.education {
+    padding-top: 45px;
+    padding-left: 140px;
+}
+
+.msitid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 78px;
+    padding-top: 80px;
+    transform: translateY(-27px);
+}
+
+.apsid {
+    display: flexbox;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 78px;
+    padding-top: 100px;
+    transform: translateY(-55px);
+}
+
+.aps {
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.msit {
+    padding-left: 50px;
+}
+
+.msitheading {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.apsheading {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.certtitle {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 56px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.certtable {
+    padding-top: 55px;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+.certtable li {
+    padding-top: 18px;
+    font-family: 'Grape Nuts', cursive;
+    padding-bottom: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.certtable li a {
+    padding-left: 32px;
+    font-size: 15px;
+    color: rgb(100, 22, 22);
+}
+
+.exptitle {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
+    margin-top: 48px;
+    font-size: 56px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.expimg {
+    height: 400px;
+    padding: 45px 45px;
+}
+
+.skillcontainer {
+    margin-top: 35px;
+    padding: 12px;
+    padding-left: 45px;
+}
+
+.skillitem {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.skill {
+    width: 265px;
+    height: 15px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: green;
+}
+
+.sfive {
+    width: 190px;
+    background-color: blue
+}
+
+.fifty {
+    width: 125px;
+    background-color: orange;
+}
+
+.tfive {
+    width: 70px;
+    background-color: red;
+}
+
+.skilltitle {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
+    margin-top: 8px;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.projects {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    margin-top: 55px;
+    font-weight: bold;
+    padding-left: 155px;
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebargo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+
+}
+
+.hamburger {
+    position: absolute;
+
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    border: 2px solid black;
+}
+
+.cross {
+    margin-left: 170px;
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .mypic {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    * {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .mypic {
+        width: 45px;
+    }
+
+    .hello {
+        font-size: 20px;
+        margin: 0;
+        padding-left: 0px;
+    }
+
+    .about {
+        font-size: 20px;
+        word-wrap: wrap;
+        margin: 0;
+    }
+
+    .aboutdescription {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .name {
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .buttons {
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 3px;
+    }
+
+    .quote {
+        margin-left: 3px;
+        padding-left: 3px;
+        transform: translateX(3px);
+    }
+
+    .education {
+        font-size: 20px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .educontainer {
+        margin-left: 0px;
+    }
+
+    .edutitle {
+        font-family: 'Source Code Pro', monospace;
+        margin: 12px 3px;
+        font-size: 36px;
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .msitid {
+        display: flexbox;
+        display: inline-block;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-top: 80px;
+        transform: translateY(-6px);
+    }
+
+    .apsid {
+        display: flexbox;
+        display: inline-block;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-top: 80px;
+        transform: translateY(-15px);
+    }
+
+    .msitimg {
+        width: 80px;
+    }
+
+    .apsimg {
+        width: 80px;
+    }
+
+    .aps {
+        padding-top: 45px;
+        padding-left: 3px;
+    }
+
+    .msit {
+        padding-left: 3px;
+    }
+
+    .expimg {
+        width: 90vh;
+        height: 90vw;
+        rotate: 90deg;
+        transform: translateX(165px);
+        transform: translateY(133px);
+        margin: 22% 0%;
+        padding: 0px 0px;
+    }
+
+    .ke {
+        margin: 0% 0%;
+        padding-left: 0px;
+    }
+
+    .exptitle {
+        margin: 2% 0%;
+        justify-content: center;
+        transform: translateX(-132px);
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .certcontainer {
+        font-size: 20px;
+        padding: 0px 0px;
+        margin: 55px 0px;
+    }
+
+    .certtable {
+        font-size: 20px;
+        padding: 0px 0px;
+        margin: 35px 0px;
+    }
+
+    .certtitle {
+        font-size: 20px;
+        padding: 0px 0px;
+        margin: 25px 0px;
+    }
+
+    .skill {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .skcontainer {
+        font-size: 20px;
+        margin: 50px 0px;
+        padding: 0px 0px;
+    }
+
+    .skillcontainer {
+        font-size: 20px;
+        margin: 30px 0px;
+        padding: 0px 0px;
+    }
+
+    .skillitem {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 10px 0px;
+    }
+
+    .skilltitle {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .projects {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .maincontact {
+        font-size: 20px;
+        margin: 60px 5px;
+        padding: 0px 0px;
+    }
+
+    .contactcontainer {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .phonenum {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .emailid {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .linkdinid {
+        font-size: 18px;
+        margin: 3px 0px;
+        padding: 0px;
+        padding-left: 95px;
+        transform: translateY(-65px);
+    }
+
+    .wappid {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+    .gitid {
+        font-size: 20px;
+        margin: 3px 0px;
+        padding: 0px 0px;
+    }
+
+}
